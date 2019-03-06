@@ -1,0 +1,19 @@
+/* When elements recieve multiple conflicting styles, the one with the greatest
+specificity/importance overrides the others. Specific classes override general
+styles applied to the body. */
+
+<style>
+
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+
+</style>
+
+<h1 class="pink-text">Hello World!</h1>

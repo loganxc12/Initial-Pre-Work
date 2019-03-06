@@ -1,0 +1,19 @@
+/* When an element recieves multiple conflicting classes, the second/lower class
+declaration will always take precendence over the first (browsers read CSS from
+top to bottom) */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+
+<h1 class="pink-text blue-text">Hello World!</h1>
