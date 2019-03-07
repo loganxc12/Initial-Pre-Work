@@ -1,0 +1,18 @@
+/* Browser compatability can be an issue with CSS - When browser parses CSS, it
+ignores any properties that it doesn't recognize/support. For this reason its
+important to provide "browser fallbacks" - to do this simply add another more
+widely supported value immediately before your declaration. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+
+<div class="red-box"></div>
