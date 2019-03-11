@@ -1,3 +1,10 @@
-// Please remember to include a summary statement with EACH FILE regarding what you learned from the lesson in this format!  I recommend keeping it at the top of each file for faster processing of your application.
+/*
+Comments are a great way to leave notes about the intent and function of the code
+for yourself/other developers - there  are 2 ways to leave comments: // in-line, and
+multi-line (examine this comment)
+*/
 
-// Copy your code from the central panel of the freeCodeCamp page and paste it below after successfully passing the test.  You will have to click on the X at the top right of the modal that pops up to see the code. If you forget, just rerun the test.  You are also welcome to download your solution.
+// In-line comment
+
+/* Multi
+line comment */
